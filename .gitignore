@@ -1,0 +1,6 @@
+venv/
+*.env
+*.mid
+*.wav
+__pycache__/
+*.sf2
