@@ -5,147 +5,88 @@
             {
                 "bar": 1,
                 "events": [
-                    [
-                        1,
-                        "melody",
-                        "D4",
-                        "eighth",
-                        50
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "F4",
-                        "eighth",
-                        55
-                    ]
+                    {
+                        "t": 1,
+                        "p": "D4",
+                        "d": "8",
+                        "v": 40
+                    },
+                    {
+                        "t": 1.5,
+                        "p": "F4",
+                        "d": "8",
+                        "v": 40
+                    },
+                    {
+                        "t": 2,
+                        "p": "A4",
+                        "d": "8",
+                        "v": 40
+                    }
                 ]
             },
             {
                 "bar": 2,
-                "events": [
-                    [
-                        2,
-                        "melody",
-                        "A4",
-                        "eighth",
-                        55
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "C5",
-                        "eighth",
-                        60
-                    ]
-                ]
+                "motif": "Intro",
+                "pattern": "rising_8ths",
+                "vel": 50
             },
             {
                 "bar": 3,
                 "events": [
-                    [
-                        1,
-                        "melody",
-                        "F4",
-                        "sixteenth",
-                        60
-                    ],
-                    [
-                        1.25,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        60
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "C5",
-                        "sixteenth",
-                        65
-                    ],
-                    [
-                        1.75,
-                        "melody",
-                        "F5",
-                        "sixteenth",
-                        65
-                    ],
-                    [
-                        2.25,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        65
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "C5",
-                        "sixteenth",
-                        70
-                    ],
-                    [
-                        2.75,
-                        "melody",
-                        "F4",
-                        "sixteenth",
-                        70
-                    ]
+                    {
+                        "t": 1,
+                        "p": "F4",
+                        "d": "8",
+                        "v": 55
+                    },
+                    {
+                        "t": 1.5,
+                        "p": "A4",
+                        "d": "8",
+                        "v": 55
+                    },
+                    {
+                        "t": 2,
+                        "p": "C5",
+                        "d": "8",
+                        "v": 55
+                    },
+                    {
+                        "t": 2.5,
+                        "p": "F5",
+                        "d": "8",
+                        "v": 55
+                    }
                 ]
             },
             {
                 "bar": 4,
                 "events": [
-                    [
-                        1,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        70
-                    ],
-                    [
-                        1.25,
-                        "melody",
-                        "D5",
-                        "sixteenth",
-                        70
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "F5",
-                        "sixteenth",
-                        75
-                    ],
-                    [
-                        1.75,
-                        "melody",
-                        "Bb5",
-                        "sixteenth",
-                        75
-                    ],
-                    [
-                        2.25,
-                        "melody",
-                        "D5",
-                        "sixteenth",
-                        75
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "F5",
-                        "sixteenth",
-                        80
-                    ],
-                    [
-                        2.75,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        80
-                    ]
+                    {
+                        "t": 1,
+                        "p": "Bb4",
+                        "d": "8",
+                        "v": 60
+                    },
+                    {
+                        "t": 1.5,
+                        "p": "D5",
+                        "d": "8",
+                        "v": 60
+                    },
+                    {
+                        "t": 2,
+                        "p": "F5",
+                        "d": "8",
+                        "v": 60
+                    },
+                    {
+                        "t": 2.5,
+                        "p": "Bb5",
+                        "d": "8",
+                        "v": 60
+                    }
                 ]
             }
         ]
@@ -154,352 +95,116 @@
         "section": "A",
         "bars": [
             {
-                "bar": 1,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "D4",
-                        "sixteenth",
-                        70
-                    ],
-                    [
-                        1.25,
-                        "melody",
-                        "E4",
-                        "sixteenth",
-                        70
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "F4",
-                        "sixteenth",
-                        75
-                    ],
-                    [
-                        1.75,
-                        "melody",
-                        "G4",
-                        "sixteenth",
-                        75
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        75
-                    ],
-                    [
-                        2.25,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        80
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        80
-                    ],
-                    [
-                        2.75,
-                        "melody",
-                        "G4",
-                        "sixteenth",
-                        80
-                    ]
-                ]
-            },
-            {
-                "bar": 2,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "F4",
-                        "sixteenth",
-                        70
-                    ],
-                    [
-                        1.25,
-                        "melody",
-                        "G4",
-                        "sixteenth",
-                        70
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        75
-                    ],
-                    [
-                        1.75,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        75
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "C5",
-                        "sixteenth",
-                        75
-                    ],
-                    [
-                        2.25,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        80
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        80
-                    ],
-                    [
-                        2.75,
-                        "melody",
-                        "G4",
-                        "sixteenth",
-                        80
-                    ]
-                ]
-            },
-            {
-                "bar": 3,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "D5",
-                        "quarter",
-                        80
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "Bb4",
-                        "quarter",
-                        80
-                    ],
-                    [
-                        3,
-                        "melody",
-                        "F4",
-                        "eighth",
-                        85
-                    ]
-                ]
-            },
-            {
-                "bar": 4,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "A4",
-                        "quarter",
-                        80
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "D5",
-                        "quarter",
-                        80
-                    ],
-                    [
-                        3,
-                        "melody",
-                        "Bb4",
-                        "eighth",
-                        85
-                    ]
-                ]
-            },
-            {
                 "bar": 5,
                 "events": [
-                    [
-                        1,
-                        "melody",
-                        "G4",
-                        "sixteenth",
-                        80
-                    ],
-                    [
-                        1.25,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        80
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        1.75,
-                        "melody",
-                        "C5",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "D5",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        2.25,
-                        "melody",
-                        "C5",
-                        "sixteenth",
-                        90
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        90
-                    ],
-                    [
-                        2.75,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        90
-                    ]
+                    {
+                        "t": 1,
+                        "p": "G4",
+                        "d": "16",
+                        "v": 80
+                    },
+                    {
+                        "t": 1.25,
+                        "p": "Bb4",
+                        "d": "16",
+                        "v": 80
+                    },
+                    {
+                        "t": 1.5,
+                        "p": "D5",
+                        "d": "16",
+                        "v": 80
+                    },
+                    {
+                        "t": 1.75,
+                        "p": "F5",
+                        "d": "16",
+                        "v": 80
+                    },
+                    {
+                        "t": 2,
+                        "p": "G5",
+                        "d": "16",
+                        "v": 80
+                    },
+                    {
+                        "t": 2.25,
+                        "p": "Bb5",
+                        "d": "16",
+                        "v": 80
+                    },
+                    {
+                        "t": 2.5,
+                        "p": "D6",
+                        "d": "16",
+                        "v": 80
+                    },
+                    {
+                        "t": 2.75,
+                        "p": "G5",
+                        "d": "16",
+                        "v": 80
+                    }
                 ]
             },
             {
                 "bar": 6,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        80
-                    ],
-                    [
-                        1.25,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        80
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "C5",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        1.75,
-                        "melody",
-                        "D5",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "E5",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        2.25,
-                        "melody",
-                        "D5",
-                        "sixteenth",
-                        90
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "C5",
-                        "sixteenth",
-                        90
-                    ],
-                    [
-                        2.75,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        90
-                    ]
-                ]
+                "motif": "A",
+                "pattern": "chiptune_run",
+                "vel": 80
             },
             {
                 "bar": 7,
                 "events": [
-                    [
-                        1,
-                        "melody",
-                        "Bb4",
-                        "eighth",
-                        90
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "D5",
-                        "eighth",
-                        90
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "F5",
-                        "eighth",
-                        95
-                    ],
-                    [
-                        3,
-                        "melody",
-                        "D5",
-                        "eighth",
-                        95
-                    ]
+                    {
+                        "t": 1,
+                        "p": "G4",
+                        "d": "q",
+                        "v": 100
+                    },
+                    {
+                        "t": 2.5,
+                        "p": "D5",
+                        "d": "8",
+                        "v": 100
+                    },
+                    {
+                        "t": 3,
+                        "p": "Bb4",
+                        "d": "8",
+                        "v": 100
+                    }
                 ]
             },
             {
                 "bar": 8,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "Bb4",
-                        "dotted-quarter",
-                        90
-                    ],
-                    [
-                        3.5,
-                        "melody",
-                        "D5",
-                        "eighth",
-                        95
-                    ]
-                ]
+                "motif": "B",
+                "pattern": "portamento_leaps",
+                "vel": 110
+            },
+            {
+                "bar": 9,
+                "motif": "A",
+                "pattern": "chiptune_run",
+                "vel": 80
+            },
+            {
+                "bar": 10,
+                "motif": "A",
+                "pattern": "chiptune_run",
+                "vel": 80
+            },
+            {
+                "bar": 11,
+                "motif": "B",
+                "pattern": "portamento_leaps",
+                "vel": 115
+            },
+            {
+                "bar": 12,
+                "motif": "B",
+                "pattern": "portamento_leaps",
+                "vel": 120
             }
         ]
     },
@@ -507,380 +212,122 @@
         "section": "B",
         "bars": [
             {
-                "bar": 1,
+                "bar": 13,
                 "events": [
-                    [
-                        1,
-                        "melody",
-                        "D5",
-                        "eighth",
-                        100
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "F5",
-                        "eighth",
-                        105
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "A5",
-                        "eighth",
-                        105
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "D5",
-                        "eighth",
-                        105
-                    ]
+                    {
+                        "t": 1,
+                        "p": "F5",
+                        "d": "8",
+                        "v": 120
+                    },
+                    {
+                        "t": 1.5,
+                        "p": "D5",
+                        "d": "8",
+                        "v": 120
+                    },
+                    {
+                        "t": 2,
+                        "p": "Bb4",
+                        "d": "8",
+                        "v": 120
+                    },
+                    {
+                        "t": 2.5,
+                        "p": "F4",
+                        "d": "8",
+                        "v": 120
+                    }
                 ]
             },
             {
-                "bar": 2,
+                "bar": 14,
+                "motif": "AggB",
+                "pattern": "aggressive_8ths",
+                "vel": 120
+            },
+            {
+                "bar": 15,
                 "events": [
-                    [
-                        1,
-                        "melody",
-                        "F5",
-                        "eighth",
-                        100
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "A5",
-                        "eighth",
-                        105
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "C6",
-                        "eighth",
-                        105
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "F5",
-                        "eighth",
-                        105
-                    ]
+                    {
+                        "t": 1,
+                        "p": "A5",
+                        "d": "16",
+                        "v": 120
+                    },
+                    {
+                        "t": 1.25,
+                        "p": "G5",
+                        "d": "16",
+                        "v": 120
+                    },
+                    {
+                        "t": 1.5,
+                        "p": "F5",
+                        "d": "16",
+                        "v": 120
+                    },
+                    {
+                        "t": 1.75,
+                        "p": "Eb5",
+                        "d": "16",
+                        "v": 120
+                    },
+                    {
+                        "t": 2,
+                        "p": "D5",
+                        "d": "16",
+                        "v": 120
+                    },
+                    {
+                        "t": 2.25,
+                        "p": "C5",
+                        "d": "16",
+                        "v": 120
+                    },
+                    {
+                        "t": 2.5,
+                        "p": "Bb4",
+                        "d": "16",
+                        "v": 120
+                    },
+                    {
+                        "t": 2.75,
+                        "p": "A4",
+                        "d": "16",
+                        "v": 120
+                    }
                 ]
             },
             {
-                "bar": 3,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "D5",
-                        "sixteenth",
-                        105
-                    ],
-                    [
-                        1.25,
-                        "melody",
-                        "Db5",
-                        "sixteenth",
-                        105
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "C5",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        1.75,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2.25,
-                        "melody",
-                        "G4",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "F4",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2.75,
-                        "melody",
-                        "D4",
-                        "sixteenth",
-                        110
-                    ]
-                ]
+                "bar": 16,
+                "motif": "C",
+                "pattern": "descending_run",
+                "vel": 120
             },
             {
-                "bar": 4,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        105
-                    ],
-                    [
-                        1.25,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        105
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "G4",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        1.75,
-                        "melody",
-                        "F4",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "D4",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2.25,
-                        "melody",
-                        "Eb4",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "F4",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2.75,
-                        "melody",
-                        "G4",
-                        "sixteenth",
-                        110
-                    ]
-                ]
+                "bar": 17,
+                "motif": "AggB",
+                "pattern": "aggressive_8ths",
+                "vel": 120
             },
             {
-                "bar": 5,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "G5",
-                        "eighth",
-                        100
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "Bb5",
-                        "eighth",
-                        105
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "D6",
-                        "eighth",
-                        105
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "G5",
-                        "eighth",
-                        105
-                    ]
-                ]
+                "bar": 18,
+                "motif": "AggB",
+                "pattern": "aggressive_8ths",
+                "vel": 120
             },
             {
-                "bar": 6,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "Bb5",
-                        "eighth",
-                        100
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "D6",
-                        "eighth",
-                        105
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "F6",
-                        "eighth",
-                        105
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "Bb5",
-                        "eighth",
-                        105
-                    ]
-                ]
+                "bar": 19,
+                "motif": "C",
+                "pattern": "descending_run",
+                "vel": 120
             },
             {
-                "bar": 7,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "A5",
-                        "sixteenth",
-                        105
-                    ],
-                    [
-                        1.25,
-                        "melody",
-                        "Bb5",
-                        "sixteenth",
-                        105
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "B5",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        1.75,
-                        "melody",
-                        "C6",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "Bb5",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2.25,
-                        "melody",
-                        "A5",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "G5",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2.75,
-                        "melody",
-                        "F5",
-                        "sixteenth",
-                        110
-                    ]
-                ]
-            },
-            {
-                "bar": 8,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "F5",
-                        "sixteenth",
-                        105
-                    ],
-                    [
-                        1.25,
-                        "melody",
-                        "Eb5",
-                        "sixteenth",
-                        105
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "D5",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        1.75,
-                        "melody",
-                        "Db5",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "C5",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2.25,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        110
-                    ],
-                    [
-                        2.75,
-                        "melody",
-                        "F4",
-                        "sixteenth",
-                        110
-                    ]
-                ]
+                "bar": 20,
+                "motif": "C",
+                "pattern": "descending_run",
+                "vel": 120
             }
         ]
     },
@@ -888,128 +335,61 @@
         "section": "Bridge",
         "bars": [
             {
-                "bar": 1,
+                "bar": 21,
+                "motif": "Bridge",
+                "pattern": "slow_rising_8ths",
+                "vel": 70
+            },
+            {
+                "bar": 22,
+                "motif": "Bridge",
+                "pattern": "slow_rising_8ths",
+                "vel": 80
+            },
+            {
+                "bar": 23,
                 "events": [
-                    [
-                        1,
-                        "melody",
-                        "D5",
-                        "eighth",
-                        70
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "F5",
-                        "eighth",
-                        70
-                    ],
-                    [
-                        3,
-                        "melody",
-                        "A5",
-                        "eighth",
-                        75
-                    ]
+                    {
+                        "t": 2,
+                        "p": "D5",
+                        "d": "16",
+                        "v": 100
+                    },
+                    {
+                        "t": 2.25,
+                        "p": "Eb5",
+                        "d": "16",
+                        "v": 100
+                    },
+                    {
+                        "t": 2.5,
+                        "p": "D5",
+                        "d": "16",
+                        "v": 100
+                    },
+                    {
+                        "t": 2.75,
+                        "p": "Eb5",
+                        "d": "16",
+                        "v": 100
+                    },
+                    {
+                        "t": 3,
+                        "p": "D5",
+                        "d": "q",
+                        "v": 100
+                    }
                 ]
             },
             {
-                "bar": 2,
+                "bar": 24,
                 "events": [
-                    [
-                        1,
-                        "melody",
-                        "Bb5",
-                        "eighth",
-                        70
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "D6",
-                        "eighth",
-                        70
-                    ],
-                    [
-                        3,
-                        "melody",
-                        "F5",
-                        "eighth",
-                        75
-                    ]
-                ]
-            },
-            {
-                "bar": 3,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "A5",
-                        "quarter",
-                        80
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "G5",
-                        "quarter",
-                        80
-                    ],
-                    [
-                        3,
-                        "melody",
-                        "F5",
-                        "eighth",
-                        85
-                    ],
-                    [
-                        3.5,
-                        "melody",
-                        "E5",
-                        "eighth",
-                        85
-                    ],
-                    [
-                        4,
-                        "melody",
-                        "F5",
-                        "eighth",
-                        85
-                    ]
-                ]
-            },
-            {
-                "bar": 4,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "D6",
-                        "quarter",
-                        90
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "Bb5",
-                        "quarter",
-                        95
-                    ],
-                    [
-                        3,
-                        "melody",
-                        "F5",
-                        "quarter",
-                        100
-                    ],
-                    [
-                        4,
-                        "melody",
-                        "D5",
-                        "quarter",
-                        100
-                    ]
+                    {
+                        "t": 1,
+                        "p": "D5",
+                        "d": "w",
+                        "v": 127
+                    }
                 ]
             }
         ]
@@ -1018,149 +398,43 @@
         "section": "Outro",
         "bars": [
             {
-                "bar": 1,
+                "bar": 25,
+                "motif": "Outro",
+                "pattern": "descending_16ths",
+                "vel": 110
+            },
+            {
+                "bar": 26,
+                "motif": "Outro",
+                "pattern": "descending_16ths",
+                "vel": 90
+            },
+            {
+                "bar": 27,
                 "events": [
-                    [
-                        1,
-                        "melody",
-                        "D5",
-                        "sixteenth",
-                        90
-                    ],
-                    [
-                        1.25,
-                        "melody",
-                        "C5",
-                        "sixteenth",
-                        90
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        1.75,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "G4",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        2.25,
-                        "melody",
-                        "F4",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "Eb4",
-                        "sixteenth",
-                        80
-                    ],
-                    [
-                        2.75,
-                        "melody",
-                        "D4",
-                        "sixteenth",
-                        80
-                    ]
+                    {
+                        "t": 1,
+                        "p": "A4",
+                        "d": "h",
+                        "v": 70
+                    },
+                    {
+                        "t": 3,
+                        "p": "F4",
+                        "d": "h",
+                        "v": 60
+                    }
                 ]
             },
             {
-                "bar": 2,
+                "bar": 28,
                 "events": [
-                    [
-                        1,
-                        "melody",
-                        "Bb4",
-                        "sixteenth",
-                        90
-                    ],
-                    [
-                        1.25,
-                        "melody",
-                        "A4",
-                        "sixteenth",
-                        90
-                    ],
-                    [
-                        1.5,
-                        "melody",
-                        "G4",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        1.75,
-                        "melody",
-                        "F4",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        2,
-                        "melody",
-                        "D4",
-                        "sixteenth",
-                        85
-                    ],
-                    [
-                        2.25,
-                        "melody",
-                        "Eb4",
-                        "sixteenth",
-                        80
-                    ],
-                    [
-                        2.5,
-                        "melody",
-                        "F4",
-                        "sixteenth",
-                        80
-                    ],
-                    [
-                        2.75,
-                        "melody",
-                        "G4",
-                        "sixteenth",
-                        80
-                    ]
-                ]
-            },
-            {
-                "bar": 3,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "D5",
-                        "half",
-                        70
-                    ]
-                ]
-            },
-            {
-                "bar": 4,
-                "events": [
-                    [
-                        1,
-                        "melody",
-                        "D4",
-                        "whole",
-                        50
-                    ]
+                    {
+                        "t": 1,
+                        "p": "D4",
+                        "d": "w",
+                        "v": 40
+                    }
                 ]
             }
         ]

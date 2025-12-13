@@ -1,0 +1,1092 @@
+{
+    "midi": [
+        {
+            "bar": 1,
+            "t": 1,
+            "channel": "melody",
+            "note": "D4",
+            "dur": "8",
+            "vel": 40
+        },
+        {
+            "bar": 1,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "F4",
+            "dur": "8",
+            "vel": 40
+        },
+        {
+            "bar": 1,
+            "t": 2,
+            "channel": "melody",
+            "note": "A4",
+            "dur": "8",
+            "vel": 40
+        },
+        {
+            "bar": 2,
+            "t": 1,
+            "channel": "melody",
+            "note": "D4",
+            "dur": "8",
+            "vel": 50
+        },
+        {
+            "bar": 2,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "F4",
+            "dur": "8",
+            "vel": 50
+        },
+        {
+            "bar": 2,
+            "t": 2,
+            "channel": "melody",
+            "note": "A4",
+            "dur": "8",
+            "vel": 50
+        },
+        {
+            "bar": 3,
+            "t": 1,
+            "channel": "melody",
+            "note": "F4",
+            "dur": "8",
+            "vel": 55
+        },
+        {
+            "bar": 3,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "A4",
+            "dur": "8",
+            "vel": 55
+        },
+        {
+            "bar": 3,
+            "t": 2,
+            "channel": "melody",
+            "note": "C5",
+            "dur": "8",
+            "vel": 55
+        },
+        {
+            "bar": 3,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "8",
+            "vel": 55
+        },
+        {
+            "bar": 4,
+            "t": 1,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "8",
+            "vel": 60
+        },
+        {
+            "bar": 4,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "8",
+            "vel": 60
+        },
+        {
+            "bar": 4,
+            "t": 2,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "8",
+            "vel": 60
+        },
+        {
+            "bar": 4,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "Bb5",
+            "dur": "8",
+            "vel": 60
+        },
+        {
+            "bar": 5,
+            "t": 1,
+            "channel": "melody",
+            "note": "G4",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 5,
+            "t": 1.25,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 5,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 5,
+            "t": 1.75,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 5,
+            "t": 2,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 5,
+            "t": 2.25,
+            "channel": "melody",
+            "note": "Bb5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 5,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "D6",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 5,
+            "t": 2.75,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 6,
+            "t": 1,
+            "channel": "melody",
+            "note": "G4",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 6,
+            "t": 1.25,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 6,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 6,
+            "t": 1.75,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 6,
+            "t": 2,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 6,
+            "t": 2.25,
+            "channel": "melody",
+            "note": "Bb5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 6,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "D6",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 6,
+            "t": 2.75,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 7,
+            "t": 1,
+            "channel": "melody",
+            "note": "G4",
+            "dur": "q",
+            "vel": 100
+        },
+        {
+            "bar": 7,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "8",
+            "vel": 100
+        },
+        {
+            "bar": 7,
+            "t": 3,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "8",
+            "vel": 100
+        },
+        {
+            "bar": 8,
+            "t": 1,
+            "channel": "melody",
+            "note": "G4",
+            "dur": "h",
+            "vel": 110
+        },
+        {
+            "bar": 8,
+            "t": 3,
+            "channel": "melody",
+            "note": "D6",
+            "dur": "h",
+            "vel": 110
+        },
+        {
+            "bar": 9,
+            "t": 1,
+            "channel": "melody",
+            "note": "G4",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 9,
+            "t": 1.25,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 9,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 9,
+            "t": 1.75,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 9,
+            "t": 2,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 9,
+            "t": 2.25,
+            "channel": "melody",
+            "note": "Bb5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 9,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "D6",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 9,
+            "t": 2.75,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 10,
+            "t": 1,
+            "channel": "melody",
+            "note": "G4",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 10,
+            "t": 1.25,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 10,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 10,
+            "t": 1.75,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 10,
+            "t": 2,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 10,
+            "t": 2.25,
+            "channel": "melody",
+            "note": "Bb5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 10,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "D6",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 10,
+            "t": 2.75,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 80
+        },
+        {
+            "bar": 11,
+            "t": 1,
+            "channel": "melody",
+            "note": "G4",
+            "dur": "h",
+            "vel": 115
+        },
+        {
+            "bar": 11,
+            "t": 3,
+            "channel": "melody",
+            "note": "D6",
+            "dur": "h",
+            "vel": 115
+        },
+        {
+            "bar": 12,
+            "t": 1,
+            "channel": "melody",
+            "note": "G4",
+            "dur": "h",
+            "vel": 120
+        },
+        {
+            "bar": 12,
+            "t": 3,
+            "channel": "melody",
+            "note": "D6",
+            "dur": "h",
+            "vel": 120
+        },
+        {
+            "bar": 13,
+            "t": 1,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 13,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 13,
+            "t": 2,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 13,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "F4",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 14,
+            "t": 1,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 14,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 14,
+            "t": 2,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 14,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "F4",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 15,
+            "t": 1,
+            "channel": "melody",
+            "note": "A5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 15,
+            "t": 1.25,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 15,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 15,
+            "t": 1.75,
+            "channel": "melody",
+            "note": "Eb5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 15,
+            "t": 2,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 15,
+            "t": 2.25,
+            "channel": "melody",
+            "note": "C5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 15,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 15,
+            "t": 2.75,
+            "channel": "melody",
+            "note": "A4",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 16,
+            "t": 1,
+            "channel": "melody",
+            "note": "A5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 16,
+            "t": 1.25,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 16,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 16,
+            "t": 1.75,
+            "channel": "melody",
+            "note": "Eb5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 16,
+            "t": 2,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 16,
+            "t": 2.25,
+            "channel": "melody",
+            "note": "C5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 16,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 16,
+            "t": 2.75,
+            "channel": "melody",
+            "note": "A4",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 17,
+            "t": 1,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 17,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 17,
+            "t": 2,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 17,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "F4",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 18,
+            "t": 1,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 18,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 18,
+            "t": 2,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 18,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "F4",
+            "dur": "8",
+            "vel": 120
+        },
+        {
+            "bar": 19,
+            "t": 1,
+            "channel": "melody",
+            "note": "A5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 19,
+            "t": 1.25,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 19,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 19,
+            "t": 1.75,
+            "channel": "melody",
+            "note": "Eb5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 19,
+            "t": 2,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 19,
+            "t": 2.25,
+            "channel": "melody",
+            "note": "C5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 19,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 19,
+            "t": 2.75,
+            "channel": "melody",
+            "note": "A4",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 20,
+            "t": 1,
+            "channel": "melody",
+            "note": "A5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 20,
+            "t": 1.25,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 20,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 20,
+            "t": 1.75,
+            "channel": "melody",
+            "note": "Eb5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 20,
+            "t": 2,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 20,
+            "t": 2.25,
+            "channel": "melody",
+            "note": "C5",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 20,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 20,
+            "t": 2.75,
+            "channel": "melody",
+            "note": "A4",
+            "dur": "16",
+            "vel": 120
+        },
+        {
+            "bar": 21,
+            "t": 1,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "8",
+            "vel": 70
+        },
+        {
+            "bar": 21,
+            "t": 2,
+            "channel": "melody",
+            "note": "Eb5",
+            "dur": "8",
+            "vel": 70
+        },
+        {
+            "bar": 21,
+            "t": 3,
+            "channel": "melody",
+            "note": "E5",
+            "dur": "8",
+            "vel": 70
+        },
+        {
+            "bar": 21,
+            "t": 4,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "8",
+            "vel": 70
+        },
+        {
+            "bar": 22,
+            "t": 1,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "8",
+            "vel": 80
+        },
+        {
+            "bar": 22,
+            "t": 2,
+            "channel": "melody",
+            "note": "Eb5",
+            "dur": "8",
+            "vel": 80
+        },
+        {
+            "bar": 22,
+            "t": 3,
+            "channel": "melody",
+            "note": "E5",
+            "dur": "8",
+            "vel": 80
+        },
+        {
+            "bar": 22,
+            "t": 4,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "8",
+            "vel": 80
+        },
+        {
+            "bar": 23,
+            "t": 2,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "16",
+            "vel": 100
+        },
+        {
+            "bar": 23,
+            "t": 2.25,
+            "channel": "melody",
+            "note": "Eb5",
+            "dur": "16",
+            "vel": 100
+        },
+        {
+            "bar": 23,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "16",
+            "vel": 100
+        },
+        {
+            "bar": 23,
+            "t": 2.75,
+            "channel": "melody",
+            "note": "Eb5",
+            "dur": "16",
+            "vel": 100
+        },
+        {
+            "bar": 23,
+            "t": 3,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "q",
+            "vel": 100
+        },
+        {
+            "bar": 24,
+            "t": 1,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "w",
+            "vel": 127
+        },
+        {
+            "bar": 25,
+            "t": 1,
+            "channel": "melody",
+            "note": "A5",
+            "dur": "16",
+            "vel": 110
+        },
+        {
+            "bar": 25,
+            "t": 1.25,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 110
+        },
+        {
+            "bar": 25,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "16",
+            "vel": 110
+        },
+        {
+            "bar": 25,
+            "t": 1.75,
+            "channel": "melody",
+            "note": "Eb5",
+            "dur": "16",
+            "vel": 110
+        },
+        {
+            "bar": 25,
+            "t": 2,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "16",
+            "vel": 110
+        },
+        {
+            "bar": 25,
+            "t": 2.25,
+            "channel": "melody",
+            "note": "C5",
+            "dur": "16",
+            "vel": 110
+        },
+        {
+            "bar": 25,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "16",
+            "vel": 110
+        },
+        {
+            "bar": 25,
+            "t": 2.75,
+            "channel": "melody",
+            "note": "A4",
+            "dur": "16",
+            "vel": 110
+        },
+        {
+            "bar": 26,
+            "t": 1,
+            "channel": "melody",
+            "note": "A5",
+            "dur": "16",
+            "vel": 90
+        },
+        {
+            "bar": 26,
+            "t": 1.25,
+            "channel": "melody",
+            "note": "G5",
+            "dur": "16",
+            "vel": 90
+        },
+        {
+            "bar": 26,
+            "t": 1.5,
+            "channel": "melody",
+            "note": "F5",
+            "dur": "16",
+            "vel": 90
+        },
+        {
+            "bar": 26,
+            "t": 1.75,
+            "channel": "melody",
+            "note": "Eb5",
+            "dur": "16",
+            "vel": 90
+        },
+        {
+            "bar": 26,
+            "t": 2,
+            "channel": "melody",
+            "note": "D5",
+            "dur": "16",
+            "vel": 90
+        },
+        {
+            "bar": 26,
+            "t": 2.25,
+            "channel": "melody",
+            "note": "C5",
+            "dur": "16",
+            "vel": 90
+        },
+        {
+            "bar": 26,
+            "t": 2.5,
+            "channel": "melody",
+            "note": "Bb4",
+            "dur": "16",
+            "vel": 90
+        },
+        {
+            "bar": 26,
+            "t": 2.75,
+            "channel": "melody",
+            "note": "A4",
+            "dur": "16",
+            "vel": 90
+        },
+        {
+            "bar": 27,
+            "t": 1,
+            "channel": "melody",
+            "note": "A4",
+            "dur": "h",
+            "vel": 70
+        },
+        {
+            "bar": 27,
+            "t": 3,
+            "channel": "melody",
+            "note": "F4",
+            "dur": "h",
+            "vel": 60
+        },
+        {
+            "bar": 28,
+            "t": 1,
+            "channel": "melody",
+            "note": "D4",
+            "dur": "w",
+            "vel": 40
+        }
+    ]
+}

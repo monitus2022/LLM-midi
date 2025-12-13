@@ -38,7 +38,14 @@ def define_rtythm_grid(theme: str, chord_backbone: str) -> str:
 def note_events_from_plan(chord_rhythm_plan: str) -> str:
     system_prompt = NOTE_EVENTS_PROMPT + str(chord_rhythm_plan)
     user_prompt = f"Generate structured note events based on the following chord and rhythm plan."
-    response = midi_llm.prompt_llm(user_prompt, system_prompt, max_completion_tokens=5000)
+    response = midi_llm.prompt_llm(user_prompt, system_prompt)
+    return midi_llm.json_response(response)
+
+@timeit
+def generate_midi(note_events: str) -> str:
+    system_prompt = MIDI_GENERATION_PROMPT + str(note_events)
+    user_prompt = f"Convert the following note events to MIDI specification: {note_events}"
+    response = midi_llm.prompt_llm(user_prompt, system_prompt)
     return midi_llm.json_response(response)
 
 if __name__ == "__main__":
@@ -57,14 +64,14 @@ if __name__ == "__main__":
     # with open("../output/chord_rhythm_plan.json", "w") as f:
     #     json.dump(chord_rhythm_plan, f, indent=4)
 
-    with open("../output/chord_rhythm_plan.json", "r") as f:
-        chord_rhythm_plan = json.load(f)
-
-    note_events = note_events_from_plan(chord_rhythm_plan)
-    with open("../output/note_events.json", "w") as f:
-        json.dump(note_events, f, indent=4)
-    # with open("../output/note_events.txt", "w") as f:
-    #     f.write(note_events)
+    # note_events = note_events_from_plan(chord_rhythm_plan)
+    # with open("../output/note_events.json", "w") as f:
+    #     json.dump(note_events, f, indent=4)
+    with open("../output/note_events.json", "r") as f:
+        note_events = json.load(f)
+    midi_spec = generate_midi(note_events)
+    with open("../output/midi_spec.json", "w") as f:
+        json.dump(midi_spec, f, indent=4)
 
     print("Music composition generation complete.")
     
