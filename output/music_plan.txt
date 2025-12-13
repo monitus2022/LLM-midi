@@ -1,0 +1,19 @@
+1. Genre/style: Chiptune (8-bit video game music), influenced by NES-era battle themes from games like Mega Man and Castlevania, featuring synthesized waveforms and limited polyphony for a pixelated, nostalgic sound.
+
+2. Mood/emotion: Energetic and tense, evoking excitement and urgency of combat, with heroic undertones and a playful retro grit that builds anticipation without overwhelming dread.
+
+3. Tempo/feel: 150 BPM, 4/4 meter, straight eighth-note drive with a bouncy, insistent rhythmic pulse to mimic fast-paced gameplay.
+
+4. Key signature & tonality: D minor, minor tonality with occasional modal shifts to Dorian for added brightness and tension release.
+
+5. Instrumentation palette: Square wave synth (sharp, piercing melody lead); triangle wave synth (deep, steady bass foundation); noise channel percussion (crisp, lo-fi drum hits for rhythm); pulse wave synth (layered harmony pads for chordal support).
+
+6. Sectional structure: Intro (4 bars, fading in from silence); A section (8 bars, main theme); B section (8 bars, contrasting development); bridge (4 bars, tension release); outro (4 bars, resolving fade). Transitions: Abrupt cuts between sections for punchy game-like flow, with A to B via rhythmic breakdown.
+
+7. Motivic ideas: Intro: Rising arpeggio motif on square wave (D-F-A ascent). A: Descending staccato riff (8th notes: D-C-Bb-A) repeated with variations. B: Syncopated bass motif (dotted rhythms: D-G-A) intertwined with melodic counterpoint. Bridge: Sparse echo of A motif slowed to half-time. Outro: Diminishing repetition of intro arpeggio.
+
+8. Dynamic contour: Starts soft in intro (mf) to build intrigue; rises to forte in A for energy; peaks at fortissimo in B with full instrumentation; drops to mezzo-piano in bridge for brief respite; fades to piano in outro for resolution.
+
+9. Length/scale: 28 bars total, approximately 1:07 duration at 150 BPM (assuming 4 beats per bar).
+
+10. Looping behavior: Loops seamlessly from the start of A section to maintain replayability in a game context, skipping intro after first playthrough.

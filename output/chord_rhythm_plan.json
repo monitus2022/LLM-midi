@@ -1,0 +1,147 @@
+{
+    "theme": "retro 8-bit battle theme",
+    "tempo": "160 BPM, chiptune square wave leads, noise channel perc",
+    "sections": [
+        {
+            "section": "Intro",
+            "bars": 4,
+            "bass": [
+                "8th note roots on downbeats bars 1-2",
+                "16th octave jumps Dm-Bb bars 3-4"
+            ],
+            "perc": [
+                "Noise burst kick on 1, snare on 3 bars 1-3",
+                "hat chatter 16ths bar 4"
+            ],
+            "melody": [
+                "Sparse motif Intro: rising 8ths bars 1-2",
+                "arpeggio sweep F-Bb bar 3-4"
+            ],
+            "harmony": [
+                "Held square triads, pulse width mod"
+            ],
+            "voiceLeading": [
+                "Gliss up in motif"
+            ],
+            "dynamics": [
+                "pp build to mp"
+            ],
+            "polyphony": "\u22641 voice/channel",
+            "loop": "cut to A"
+        },
+        {
+            "section": "A",
+            "bars": 8,
+            "bass": [
+                "Pulsing 8th roots bars 1-4",
+                "syncopated 16ths Gm-Am bars 5-6",
+                "octave stab Bb bar 8"
+            ],
+            "perc": [
+                "Kick on 1&3, snare on 2&4 bars 1-7",
+                "noise fill 32nds bar 8"
+            ],
+            "melody": [
+                "Motif A: chiptune run 16ths bars 1-2,5",
+                "portamento leaps motif B bars 3-4,7-8"
+            ],
+            "harmony": [
+                "Arpeggiated triads 8ths",
+                "vibrato swell bar 7"
+            ],
+            "voiceLeading": [
+                "Stepwise bassline",
+                "melodic trills in A"
+            ],
+            "dynamics": [
+                "mf bars 1-4",
+                "cresc to f bar 7-8"
+            ],
+            "polyphony": "\u22642 voices/channel",
+            "loop": "repeat or to B"
+        },
+        {
+            "section": "B",
+            "bars": 8,
+            "bass": [
+                "Driving 16th roots bars 1-4",
+                "sync 8ths w/5ths bars 5-7",
+                "drop to F bar 8"
+            ],
+            "perc": [
+                "Double kick 16ths bars 1-3,5-7",
+                "hat rolls bars 4,8"
+            ],
+            "melody": [
+                "Aggressive motif B: saw wave 8ths bars 1-2,5-6",
+                "descending run bars 3-4,7-8"
+            ],
+            "harmony": [
+                "Fast arps on chords",
+                "pulse mod crescendo"
+            ],
+            "voiceLeading": [
+                "Chromatic steps in melody",
+                "bass leaps Bb-F"
+            ],
+            "dynamics": [
+                "f throughout, accent peaks"
+            ],
+            "polyphony": "\u22643 voices/channel",
+            "loop": "to bridge"
+        },
+        {
+            "section": "Bridge",
+            "bars": 4,
+            "bass": [
+                "Sustained roots w/tremolo bars 1-3",
+                "rising 8ths to Dm bar 4"
+            ],
+            "perc": [
+                "Sparse kicks on 1, snare fills bar 4"
+            ],
+            "melody": [
+                "Tension build motif Bridge: slow 8ths bar 1-2",
+                "trilled release bar 3-4"
+            ],
+            "harmony": [
+                "Held triads w/noise undertone"
+            ],
+            "voiceLeading": [
+                "Smooth voice crossings"
+            ],
+            "dynamics": [
+                "mp to ff bar 4"
+            ],
+            "polyphony": "\u22642 voices/channel",
+            "loop": "to outro"
+        },
+        {
+            "section": "Outro",
+            "bars": 4,
+            "bass": [
+                "Fading 8th roots bars 1-3",
+                "final Dm stab bar 4"
+            ],
+            "perc": [
+                "Echoing snare/kick bars 1-2",
+                "noise decay bar 3-4"
+            ],
+            "melody": [
+                "Motif Outro: descending 16ths bars 1-2",
+                "held note fade bar 3-4"
+            ],
+            "harmony": [
+                "Triads w/decreasing pulse"
+            ],
+            "voiceLeading": [
+                "Resolve stepwise to root"
+            ],
+            "dynamics": [
+                "f to p fade"
+            ],
+            "polyphony": "\u22641 voice/channel",
+            "loop": "fade out"
+        }
+    ]
+}

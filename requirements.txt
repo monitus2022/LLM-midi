@@ -2,3 +2,4 @@ mido[ports-rtmidi]
 openai
 python-dotenv
 midi2audio
+ollama

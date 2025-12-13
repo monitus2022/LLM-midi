@@ -1,0 +1,116 @@
+{
+    "key": "D minor (Dorian inflections)",
+    "sections": [
+        {
+            "name": "Intro",
+            "bars": 4,
+            "chords": [
+                "Dm",
+                "Dm",
+                "F",
+                "Bb"
+            ],
+            "motifs": {
+                "Intro": [
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "loop": "cut to A"
+        },
+        {
+            "name": "A",
+            "bars": 8,
+            "chords": [
+                "Dm",
+                "Bb",
+                "F",
+                "C",
+                "Dm",
+                "Gm",
+                "Am",
+                "Bb"
+            ],
+            "motifs": {
+                "A": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "loop": "repeat or to B"
+        },
+        {
+            "name": "B",
+            "bars": 8,
+            "chords": [
+                "Gm",
+                "Am",
+                "Bb",
+                "F",
+                "C",
+                "Dm",
+                "Bb",
+                "F"
+            ],
+            "motifs": {
+                "B": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                ]
+            },
+            "loop": "to bridge"
+        },
+        {
+            "name": "Bridge",
+            "bars": 4,
+            "chords": [
+                "Bb",
+                "F",
+                "C",
+                "Dm"
+            ],
+            "motifs": {
+                "Bridge": [
+                    21,
+                    22,
+                    23,
+                    24
+                ]
+            },
+            "loop": "to outro"
+        },
+        {
+            "name": "Outro",
+            "bars": 4,
+            "chords": [
+                "Dm",
+                "Bb",
+                "F",
+                "Dm"
+            ],
+            "motifs": {
+                "Outro": [
+                    25,
+                    26,
+                    27,
+                    28
+                ]
+            },
+            "loop": "fade out"
+        }
+    ]
+}

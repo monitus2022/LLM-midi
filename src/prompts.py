@@ -18,77 +18,92 @@ Format the answer as a numbered list with concise but specific details.
 Do not generate notes or MIDI tokens yet—only the high-level outline.
 """
 
-DEFINE_CHORD_RHYTHM_PROMPT = """
-You are a music arranger expanding a structured outline into harmonic and rhythmic detail. 
-Given the outline below, generate chord progressions and rhythm grids for each section.
+
+DEFINE_CHORD_PROMPT = """
+You are a music arranger. 
+Given the outline below, output only the harmonic backbone in compact JSON.
+
+Output format:
+{
+  "key": "D minor (Dorian inflections)",
+  "sections": [
+    {
+      "name": "Intro",
+      "bars": 4,
+      "chords": ["Dm","Dm(add9)/F","Bb","F/C"],
+      "motifs": {"Intro":[1,2,3,4]},
+      "loop": "cut to A"
+    },
+    {
+      "name": "A",
+      "bars": 8,
+      "chords": ["Dm","Bb","F","C","Dm","Gm","Am","Dm"],
+      "motifs": {"A":[5,6,7,8,9,10,11,12]},
+      "loop": "repeat or to B"
+    }
+
+  ]
+}
+Do not include rhythm grids, dynamics, or other details yet.
 
 Outline:
-{music_plan}
 
-Your output must include:
-
-Your output must include ALL of the following:
-
-
-Your output must include ALL of the following:
-
-1. Key signature & tonality confirmation.
-
-2. For each section (Intro, A, B, Bridge, A’, Outro):
-   - Chord progression: list chords bar by bar.
-   - Rhythm grid: describe bass, percussion, melody, and harmony per bar.
-   - Motif integration: specify motifs and the exact bars they appear.
-   - Percussion variation: include fills, rolls, or transitions per section.
-   - Voice leading cues: describe how melody moves between chords (stepwise, leaps, octave shifts).
-   - Dynamics: add bar-level markings (e.g., crescendo in bar 7, accent in bar 8).
-   - Polyphony limits: enforce max 2 voices per channel (NES-style).
-   - Looping consideration: describe how the section transitions back or forward.
-
-3. Format the answer as a structured list, section by section, with chords and rhythm grids clearly separated. 
-Do not generate MIDI tokens yet—only harmonic and rhythmic plans.
 """
+
+
+DEFINE_RHYTHM_PROMPT = """
+You are a music arranger. 
+Given the harmonic backbone below, expand into rhythmic and expressive detail in compact JSON.
+
+Output format:
+{
+  "section": "A",
+  "bars": 8,
+  "bass": ["8ths root-5th bars 1-6","sync 16ths bars 7-8"],
+  "perc": ["KickSnareHat default","snare fill bar 8"],
+  "melody": ["Motif A bars 1-2,5-6","Motif B bars 3-4,7-8"],
+  "harmony": ["sustain triads","crescendo bar 7"],
+  "voiceLeading": ["stepwise in B","leaps in A"],
+  "dynamics": ["mf bars 1-4","crescendo bar 7","f bar 8"],
+  "polyphony": "≤2 voices/channel",
+  "loop": "resolves to Em, repeat or transition to B"
+}
+Do not regenerate chords—only add rhythmic/expression detail.
+
+Backbone:
+
+"""
+
 
 NOTE_EVENTS_PROMPT = """
 You are a symbolic music generator. 
-Given the following harmonic and rhythmic plan, output structured note events suitable for MIDI conversion.
+Given the harmonic + rhythmic plan, output structured note events in JSON.
 
-Plan:
-[Paste Section Breakdown from Prompt 2 here]
+Output format:
+{
+  "section": "Intro",
+  "bars": [
+    {
+      "bar": 1,
+      "events": [
+        [1, "melody", "D4", "quarter", 80],
+        [2, "melody", "F4", "eighth", 85],
+        [2.5, "melody", "A4", "eighth", 85],
+        [1, "bass", "D2", "quarter", 90],
+        [1, "perc", "PercKick", "quarter", 100]
+      ]
+    },
+    {
+      "bar": 2,
+      "events": [...]
+    }
+  ]
+}
 
-Your output must include:
+The elements in "events" represent the following:
+{"beat":1,"channel":"melody","pitch":"D4","dur":"quarter","vel":80}
+Do not include bass, percussion, or harmony events—only melody.
 
-1. Note events in the format:
-   [bar, beat, channel, pitch, duration, velocity]
+Input:
 
-   - bar: integer (1–N)
-   - beat: subdivision (e.g., 1, 1.5 for "and of 1")
-   - channel: instrument assignment
-       - Channel 1 = Square wave (melody)
-       - Channel 2 = Pulse wave (bass)
-       - Channel 3 = Noise channel (percussion)
-       - Channel 4 = Triangle wave (harmony/pad)
-   - pitch: note name with octave (e.g., E4, G#3), or "PercKick", "PercSnare", "PercHat" for noise events
-   - duration: rhythmic value (e.g., quarter, 8th, 16th, whole)
-   - velocity: 0–127 (approximate dynamics)
-
-2. Respect NES-style polyphony limits:
-   - Max 2 voices per channel at any time.
-
-3. Place motifs exactly where specified in the plan:
-   - Motif A = descending 4ths (A–E–B)
-   - Motif B = rising arpeggio (E–G–B–D)
-   - Motif C = chromatic descent (B–A–G#–G)
-   - Motif D = descending scale (B–A–G–F#)
-
-4. Dynamics: reflect crescendos/decrescendos by adjusting velocity values.
-
-5. Percussion mapping:
-   - Kick = PercKick
-   - Snare = PercSnare
-   - Hi-hat = PercHat
-   - Fills/rolls = repeated PercSnare or PercHat with shorter durations.
-
-6. Output section by section, bar by bar, with clear separation.
-
-Do not describe or explain—only output structured note events.
 """
