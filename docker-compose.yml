@@ -1,0 +1,14 @@
+services:
+  audio-synth:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./output:/app/output
+      - ./soundfonts:/app/soundfonts
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 1G
+    command: python src/audio_synthesis.py

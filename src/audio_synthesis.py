@@ -14,7 +14,7 @@ def synthesize_audio(midi_path, audio_path, soundfont_path='soundfonts/FluidR3_G
 
 if __name__ == "__main__":
     synthesize_audio(
-        '../output/generated_music.mid', 
-        '../output/generated_music.wav',
-        '../soundfonts/8bit.sf2'
+        './output/generated_music.mid', 
+        './output/generated_music.wav',
+        './soundfonts/8bit.sf2'
         )
